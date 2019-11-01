@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+        h1{
+           background-color:black;
+           text-align:center;
+           color:red; 
+        }
+        </style>
+        <script>
+        function display()
+        {
+      
+        var reg=document.getElementById('reg').value
+switch (reg)
+ {
+  case '1600':
+     document.write("Dibin Jose");
+     document.write("Invalid register number");
+     document.write("Invalid register number");
+    break;
+  case '1700':
+     document.write("Invalid register number");
+     document.write("Invalid register number");
+     document.write("Invalid register number");
+    break;
+  case '1800':
+    document.write("Invalid register number");
+    document.write("Invalid register number");
+    document.write("Invalid register number");
+    break;
+  case '1900':
+    document.write("Invalid register number");
+    document.write("Invalid register number");
+    document.write("Invalid register number");
+    break;
+  default:
+    document.write("Invalid register number");
+}
+}
+        </script>
+    </head>
+    <body bgcolor="white" color="red">
+    <h1>Personal Information</h1>
+    <form name="myform" method="get">
+    Enter Register Number:&nbsp;&nbsp;
+    <Input type="text" Name="Name" Size=15 Maxlength=15 id="reg">
+    <br>
+
+    <center><Input type="Submit" Name="Submit" value="Submit" onclick="display()">&nbsp;&nbsp;<Input type="Reset" Name="Reset" value="Reset"></Center></form>    
+    </body>
+</html>
